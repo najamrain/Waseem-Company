@@ -1,0 +1,559 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Bhai+2&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+.navbar .servc {
+  background: white;
+  color: black;
+}
+.srv-img-section {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100%;
+  margin-bottom: 0.1rem;
+}
+
+.srv-img-container {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-image: url(../myimage/service2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  margin-bottom: 0.1rem;
+}
+
+.nst-heading1 {
+  font-size: 4rem;
+  color: white;
+  font-weight: 4rem;
+  padding-left: 2rem;
+  display: inline-block;
+}
+@media (max-width: 500px) {
+  .nst-heading1 {
+    font-size: 1rem;
+  }
+}
+.child-nst-heading1 {
+  font-size: 2.1rem;
+  font-weight: 4rem;
+  padding-left: 2rem;
+  color: white;
+  display: inline-block;
+}
+
+.heading-container {
+  padding: 0 7rem;
+  line-height: 2.3rem;
+  position: relative;
+  position: relative;
+  z-index: 5;
+}
+
+.srv-div1 {
+  border-bottom: 0.3rem solid black;
+}
+
+.srv-heading1 {
+  font-size: 3.8rem;
+  color: white;
+  font-weight: bold;
+  padding-left: 2rem;
+  display: inline-block;
+}
+
+.srv-heading2 {
+  font-size: 4rem;
+  color: black;
+  font-weight: bold;
+  display: inline;
+  padding-right: 0.5rem;
+}
+
+.srv-heading3 {
+  font-size: 1.7rem;
+  /* color: rgb(10, 10, 117); */
+  color: red;
+  /* color: white; */
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+  padding-right: 0.5rem;
+}
+
+.srv-heading4 {
+  font-size: 2.7rem;
+  line-height: 2.5rem;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.srv-heading5 {
+  font-size: 1.8rem;
+  font-weight: bolder;
+  font-family: "Open Sans", sans-serif;
+  display: inline;
+}
+
+.src-common-heading {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0.6rem 0;
+}
+
+.srv-span1 {
+  font-size: 3rem;
+  font-style: normal;
+  color: red;
+  padding-left: 0.5rem;
+}
+
+.srv-text1 {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  color: rgb(75, 71, 71);
+  text-align: center;
+}
+
+.srv-text2 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: grey;
+  padding: 1rem 0;
+  text-align: justify;
+}
+
+/*srv-section1 start here*/
+
+.srv-section1 {
+  display: grid;
+  grid-template-columns: max-content;
+  grid-template-rows: min-content;
+  justify-content: center;
+  margin-bottom: 1rem;
+  padding: 1.5rem 0;
+}
+
+/*srv-section1 ends here*/
+
+.srv-section2 {
+  display: grid;
+  grid-template-columns: 35%;
+  grid-template-rows: min-content;
+  justify-content: center;
+  margin-bottom: 0.1rem;
+}
+
+.srv-section3 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 410px 410px;
+  grid-gap: 1.3rem;
+  margin: 3rem 0;
+  padding: 0 8rem;
+}
+
+.srv-div2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.srv-div2 a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  display: inline-block;
+  background-color: brown;
+  padding: 0.2rem 5rem;
+  border: 2px solid lightgrey;
+  border-radius: 0.3rem;
+  margin-top: 1rem;
+}
+
+.srv-div2 a:hover {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white;
+  display: inline-block;
+  background-color: lightslategray;
+  padding: 0.2rem 5rem;
+  border: 2px solid white;
+  border-radius: 0.3rem;
+}
+
+.srv3-boxes {
+  padding: 1rem;
+  margin-bottom: ;
+  /*  box-shadow: 4px 4px 76px;
+     box-shadow: -1px -1px 69px #9797e5;*/
+  box-shadow: -1px -1px 69px #9797e5;
+  border-radius: 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 0 1.5rem;
+}
+
+/* .srv3-boxes:hover .oerlay-div {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: red;
+  transition: all 0.2s ease-in;
+  color: white;
+} */
+
+/* .srv3-boxes:hover {
+    box-shadow: -1px 2px 13px 5px rgb(235, 141, 227);
+    transform-origin: center center;
+    transform: perspective(3000px) translateZ(55px);
+    transition: all 2s 0.2s;
+    transition-timing-function: ease-in;
+}*/
+
+.srv3-boxes i {
+  width: 80px;
+  height: 80px;
+  color: red;
+  font-size: 2rem;
+  border: 3px solid blue;
+  border-radius: 50%;
+  padding: 1rem;
+  margin-bottom: 0.7rem;
+  display: flex;
+  justify-content: center;
+}
+
+.nested-overlay i {
+  border: 3px solid white;
+  color: white;
+}
+
+.nested-tst1 {
+  width: 100%;
+  background: url(../img/teach2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.nested-tst2 {
+  background-color: #5b6a82;
+  padding: 1.5rem;
+  display: grid;
+  align-items: center;
+}
+
+.abt-text1 {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  color: white;
+}
+
+.srv-section4 {
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+  grid-template-rows: 650px;
+  margin-bottom: 0.2rem;
+  grid-gap: 0.4rem;
+}
+
+.srv-sc4-box1 {
+  display: grid;
+  display: grid;
+  align-items: center;
+  justify-items: right;
+}
+
+.srv-sc4-box1-img-cont {
+  width: 80%;
+  height: 90%;
+  padding-left: 1rem;
+  border: 0.9rem solid white;
+  border-radius: 0.7rem;
+  /*  box-shadow: 0 1px 5px rgb(235, 141, 227);*/
+  box-shadow: -5px 9px 24px rgb(150, 148, 150);
+  /* background: url(../img/srvbox.jpg);*/
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.srv-ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+.srv-ul i {
+  padding-right: 1rem;
+  font-size: 1.3rem;
+  color: red;
+}
+
+.srv-ul li {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+  color: rgb(148, 140, 140);
+  line-height: 1rem;
+}
+
+.srv-sc4-box2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content 50%;
+  padding: 2rem 0;
+}
+
+.srv-sc4-box2-tex-cont1 {
+  padding: 0 1rem;
+}
+
+.srv-sc4-box2-tex-cont2 {
+  padding: 0 1rem;
+}
+
+.srv-section5 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content;
+  margin-bottom: 0.2rem;
+  background: rgb(250, 247, 247);
+  align-items: center;
+  text-align: center;
+}
+
+.srv-section5 div {
+  padding: 0.2rem 13rem;
+}
+
+/*tst section1 ends here*/
+
+/*tst section2 start here*/
+
+.tst-section2 {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  grid-template-rows: 350px;
+  margin-bottom: 0.1rem;
+}
+
+.nested-tst3 {
+  background-color: red;
+  padding: 1.5rem;
+  display: grid;
+  align-items: center;
+}
+
+.nested-tst4 {
+  width: 100%;
+  background: url(../img/teach2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*tst section2 ends here*/
+
+@media (max-width: 800px) {
+  .srv-img-section {
+    grid-template-rows: 400px;
+  }
+  .srv-img-container {
+    align-items: center;
+    justify-items: center;
+  }
+  .srv-heading1 {
+    font-size: 2.9rem;
+  }
+  .srv-section2 {
+    display: grid;
+    grid-template-columns: 55%;
+    grid-template-rows: min-content;
+    justify-content: center;
+    margin-bottom: 0.1rem;
+  }
+  .srv-heading2 {
+    font-size: 3rem;
+  }
+  .srv-span1 {
+    font-size: 2.5rem;
+  }
+  .tst-section1 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 250px min-content;
+  }
+  .tst-section2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content 250px;
+    margin-bottom: 0.1rem;
+  }
+  .nested-tst1 {
+    order: 1;
+  }
+}
+
+@media (max-width: 1000px) {
+  .srv-section3 {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 410px 410px;
+    grid-auto-rows: 410px;
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .srv-section3 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 410px 410px;
+    grid-auto-rows: 410px;
+    grid-gap: 1.3rem;
+    margin: 3rem 0;
+    padding: 0 6rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .srv-section3 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 410px 410px;
+    grid-auto-rows: 410px;
+    justify-content: center;
+    grid-gap: 1.3rem;
+    margin: 3rem 0;
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .srv-section4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 650px;
+    margin-bottom: 0.2rem;
+    grid-gap: 0.1;
+  }
+  .srv-section5 div {
+    padding: 0.2rem 6rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .srv-section4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 600px min-content;
+    margin-bottom: 0.2rem;
+    grid-gap: 0.1rem;
+  }
+  .srv-sc4-box1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    padding: 1rem;
+  }
+  .srv-sc4-box1-img-cont {
+    width: 100%;
+    height: 100%;
+  }
+  .srv-sc4-box2 {
+    padding: 1rem;
+  }
+  .srv-section5 div {
+    padding: 0.2rem 1rem;
+  }
+}
+.srvc-box-imgs1 {
+  background-image: url(../myimage/legal.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.srvc-box-imgs2 {
+  background-image: url(../myimage/marriage.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.srvc-box-imgs3 {
+  background-image: url(../myimage/education.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.srvc-box-imgs4 {
+  background-image: url(../myimage/medical.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.srvc-box-imgs5 {
+  background-image: url(../myimage/comr.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.srvc-box-imgs6 {
+  background-image: url(../myimage/publication.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.srvc-box-imgs7 {
+  background-image: url(../myimage/car.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.srvc-box-imgs8 {
+  background-image: url(../myimage/company-doct.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

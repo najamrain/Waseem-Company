@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.ws-servc {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: 300px;
+  justify-items: center;
+  grid-gap: 1rem;
+  padding: 1rem;
+}
+.ws-servc-boxes {
+  /* background: white; */
+  padding: 2rem 1rem;
+  /* border: 1px solid red; */
+  border-radius: 0.2rem;
+  text-align: center;
+  overflow: hidden;
+}
+.ws-servc-boxes h5 {
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+}
+.ws-servc-boxes p {
+  color: white;
+  font-size: larger;
+}
+.ws-servc .ws-servc-boxes div i {
+  color: white;
+  /* color: #000; */
+}
+
+.ws-servc-box1 {
+  background: red;
+}
+.ws-servc-box2 {
+  background: #2f4b78;
+}
+.ws-servc-box3 {
+  background: red;
+}
+.ws-servc-box4 {
+  background: #2f4b78;
+}

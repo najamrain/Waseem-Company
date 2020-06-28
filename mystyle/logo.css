@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+.logo {
+  float: left;
+  color: white;
+  padding: 0;
+  font-weight: bolder;
+}
+.logo a {
+  color: white;
+  font-size: 1.6rem;
+  font-family: "Courgette", cursive;
+}
+#naaj {
+}
+.nav-div .logo:hover {
+  background: black;
+}

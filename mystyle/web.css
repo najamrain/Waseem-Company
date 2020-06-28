@@ -1,0 +1,44 @@
+.web-dev {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-rows: 400px 400px;
+  padding: 0.5rem 7rem;
+  grid-gap: 2rem;
+  justify-items: center;
+}
+.web-boxes {
+  /* border: 1px solid black; */
+  padding: 1rem;
+  text-align: center;
+  display: grid;
+  align-items: center;
+  background: red;
+  color: white;
+  border-radius: 0.4rem;
+}
+.web-boxes h5 {
+  font-size: 2rem;
+}
+.web-boxes i {
+  font-size: 3rem;
+  color: black;
+}
+.web-box1 {
+  background: red;
+}
+.web-box2 {
+  background: #2f4b78;
+}
+.web-box3 {
+  background: red;
+}
+.web-box4 {
+  background: #2f4b78;
+}
+.web-box5 {
+  background: red;
+}
+.web-box6 {
+  background: #2f4b78;
+}

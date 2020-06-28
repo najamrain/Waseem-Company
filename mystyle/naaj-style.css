@@ -1,0 +1,253 @@
+/* <div class="border" style=" background: #2f4b78;  border: 0.2rem solid #2f4b78;"> */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+.overlay1 {
+  height: 0%;
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.8);
+  overflow-y: hidden;
+  transition: 0.5s;
+  padding: 0 1rem;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  z-index: 2;
+}
+
+.overlay1 a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay1 a:hover,
+.overlay1 a:focus {
+  color: #f1f1f1;
+}
+
+.overlay1 .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+/* code by me */
+/*
+.para {
+position: absolute;
+top: 0;
+z-index: -1;
+color: red;
+}
+*/
+.span {
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+  float: right;
+  display: none;
+  background: brow;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  right: 1rem;
+  top: 0.3rem;
+  z-index: -1;
+}
+.nav-email {
+  width: 100vw;
+  height: 35px;
+  background: white;
+  position: absolute;
+  top: 5px;
+  z-index: 1;
+  padding: 1rem;
+  opacity: 0.8;
+  padding: 0.5rem 0;
+  display: flex;
+  justify-content: end;
+  padding-right: 2rem;
+}
+.nav-email a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: blue;
+  float: right;
+  margin-right: 1rem;
+}
+@media (max-width: 500px) {
+  .nav-email {
+    display: flex;
+    justify-content: center;
+  }
+}
+.nav-div {
+  width: 100vw;
+  height: 50px;
+  position: absolute;
+  top: 40px;
+  padding: 1rem;
+  opacity: 0.9;
+  color: black;
+  /*background: darkgreen;*/
+}
+
+.nav1 {
+  float: right;
+  padding: 0 3rem;
+}
+
+.nav1 a {
+  text-decoration: none;
+  color: red;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.nav1 a:hover {
+  color: white;
+  background: black;
+  padding: 0.5rem 1rem;
+
+  /* color: rgb(41, 15, 90);*/
+}
+
+.logo a {
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+  background: red;
+  padding: 0.3rem 0.6rem;
+  font-weight: bold;
+}
+
+/*  .over-l {
+width: 100vw;
+height: 100vh;
+background: rgb(64, 24, 139);
+position: absolute;
+opacity: 0.8;
+z-index: 1;
+}
+*/
+/*code by me end*/
+/* media query by youtuber start */
+@media screen and (max-height: 450px) {
+  .overlay1 {
+    overflow-y: auto;
+  }
+
+  .overlay1 a {
+    font-size: 20px;
+  }
+
+  .overlay1 .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+/* media query by youtuber end */
+@media (max-width: 800px) {
+  .nav1 {
+    display: none;
+  }
+
+  .nav-div .span {
+    display: block;
+    z-index: 0;
+    padding-right: 1rem;
+  }
+}
+
+.services {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 280vh;
+  display: none;
+  position: relative;
+  top: 10px;
+  z-index: 2;
+}
+
+.box1 {
+  background: rgb(235, 235, 240);
+}
+
+.box2 {
+  background: rgb(241, 169, 220);
+}
+
+.logo-container {
+  color: white;
+  font-size: 1.5rem;
+  background-color: blueviolet;
+  position: relative;
+}
+
+.logo-img {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 0;
+  top: -20px;
+}
+
+.logo-text-color1 {
+  position: absolute;
+  left: 73px;
+  top: 6px;
+}
+
+.logo-text-color2 {
+  color: crimson;
+}
+
+/*landing section start here*/
+.landing-page-conatainer {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100vh;
+  background: tomato;
+  position: absolute;
+  top: 0;
+  padding-top: 3rem;
+}
+
+.land-boxes {
+}
+
+.land-box1 {
+  background: cadetblue;
+}
+
+.land-box2 {
+  background: cyan;
+}
+.srv-box {
+}

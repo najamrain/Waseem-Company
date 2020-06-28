@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Bhai+2&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans:100&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+.srv-box p {
+  font-family: "Roboto Slab", serif !important;
+}
+#section1 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: min-content;
+  grid-auto-rows: min-content;
+
+  margin: 0.1rem 0;
+}
+
+#box2 {
+  padding: 5rem;
+  background: #2f4b78;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+#box1 {
+  width: 100%;
+  height: 100%;
+  background: url(../myimage/sc2.png);
+  background-size: cover;
+  background-position: center;
+}
+.my-own-srv {
+  font-size: 2rem;
+  font-weight: bolder;
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+}
+
+#heading1 {
+  font-size: 3.5rem;
+  font-weight: bolder;
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
+}
+
+.heading2 {
+  font-size: 1.1rem;
+  font-weight: normal;
+  display: inline-block;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Roboto Slab", serif;
+  font-weight: normal;
+  line-height: 1.6rem;
+  text-align: left;
+}
+
+#span1 {
+  font-style: normal;
+  font-size: 3.3rem;
+  font-family: "Alegreya Sans", sans-serif;
+  padding: 0;
+}
+
+.border {
+  width: 200px;
+  height: px;
+  border: 0.2rem solid white;
+  border-radius: 0.5rem;
+  display: inline-block;
+}
+
+.border1 {
+  width: 10px;
+  height: px;
+  border: 0.2rem solid #f0e10e;
+  border-radius: 0.5rem;
+  display: inline-block;
+}
+
+@media (max-width: 1000px) {
+  #section1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 350px min-content;
+    grid-auto-rows: min-content;
+    grid-gap: 0.1rem;
+    padding: 0.1rem;
+  }
+
+  #box2 {
+    padding: 2.5rem 1rem;
+    /* background: #27549c;*/
+    background: #2f4b78;
+    color: white;
+    width: 100%;
+    height: 100%;
+  }
+
+  #box1 {
+    width: 100%;
+    height: 100%;
+    background-image: url(../myimage/sc2.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  #heading1 {
+    font-size: 3.5rem;
+    font-weight: bolder;
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    text-align: justify;
+  }
+
+  .heading2 {
+    font-size: 1.1rem;
+
+    display: inline-block;
+
+    font-family: "Roboto Slab", serif;
+
+    line-height: 1.5rem;
+    text-align: left;
+  }
+
+  #span1 {
+    font-style: normal;
+    font-size: 3.3rem;
+    font-family: "Alegreya Sans", sans-serif;
+    padding: 0;
+  }
+
+  .border {
+    width: 200px;
+    height: px;
+    border: 0.2rem solid white;
+    border-radius: 0.5rem;
+    display: inline-block;
+  }
+
+  .border1 {
+    width: 10px;
+    height: px;
+    border: 0.2rem solid #f0e10e;
+    border-radius: 0.5rem;
+    display: inline-block;
+  }
+}
+.srvc-section {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  grid-template-rows: min-content;
+  grid-auto-rows: min-content;
+  grid-gap: ;
+  /*  padding: 1rem;*/
+  margin: 0.1rem 0;
+}
+
+.srvc-box1 {
+  padding: 5rem 10rem;
+  /* background: #27549c;*/
+  /* background: #2f4b78; */
+  background: red;
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  /* overflow: hidden; */
+}
+.srvc-box2 {
+  padding: 2rem 3rem;
+  background-image: url(../myimage/sc1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+.srv-box2-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  /* background: #3d3d3d; */
+  background: #2f4b78;
+
+  opacity: 0.8;
+  z-index: -1;
+}
+.srv-ul li {
+  list-style: none;
+  padding: none;
+  line-height: 2rem;
+  /* font-family: "sans-serif"; */
+  font-family: "Baloo Bhai 2", cursive;
+
+  /* font-weight: bold; */
+  font-size: 1.2rem;
+  /* list-style-position: inside; */
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  /* color: #2f4b78; */
+}
+.srv-ul li i {
+  color: crimson;
+}
+@media (max-width: 700px) {
+  .srv-ul li {
+    font-size: 1rem;
+  }
+  .srvc-box1 {
+    padding: 8rem 1rem;
+  }
+  .srvc-box2 {
+    padding: 1rem;
+  }
+}
+@media (max-width: 500px) {
+  .srv-ul li {
+    font-size: 0.8rem;
+  }
+}

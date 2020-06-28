@@ -1,0 +1,37 @@
+.ancher-baba {
+            text-decoration: none;
+            display: inline-block;
+            color: white;
+            font-size: 1.4rem;
+            border: 2px solid grey;
+            padding: 0.5rem 2.8rem;
+            border-radius: 0.3rem;
+            background-color: black;
+            margin-top: 0.6rem;
+            position: relative;
+            transition: all 0.5s ease;
+        }
+
+        .ancher-baba:after {
+            background: red;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 100%;
+            z-index: -1;
+            transition: all 0.5s ease;
+        }
+
+        .ancher-baba:hover {
+            background-color: blue;
+            /* color: rgb(31, 6, 121);*/
+            color: black;
+            box-sizing: border-box;
+            border: 2px solid white;
+        }
+
+        .ancher-baba:hover:after {
+            width: 100%;
+        }

@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  /* line-height: 1.6; */
+}
+
+.slider {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+.content h1 {
+  font-style: italic;
+  font-family: "Zilla Slab", serif;
+}
+
+.content p {
+  font-size: 1.2rem;
+  font-family: "Zilla Slab", serif;
+  font-weight: bold;
+}
+.slide.current {
+  opacity: 1;
+}
+
+.slide .content {
+  position: absolute;
+  bottom: 170px;
+  left: -600px;
+  width: 600px;
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  /* color: #333; */
+  background: red;
+  opacity: 0.2;
+  color: white;
+  padding: 35px;
+}
+
+.slide .content h1 {
+  margin-bottom: 10px;
+}
+
+.slide.current .content {
+  opacity: 1;
+  transform: translateX(700px);
+  transition: all 0.7s ease-in-out 0.3s;
+}
+
+.buttons button#next {
+  position: absolute;
+  top: 40%;
+  right: 15px;
+}
+
+.buttons button#prev {
+  position: absolute;
+  top: 40%;
+  left: 15px;
+}
+
+.buttons button {
+  border: 2px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  padding: 13px 15px;
+  border-radius: 50%;
+  outline: none;
+}
+
+.buttons button:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+@media (max-width: 500px) {
+  .slide .content {
+    bottom: -300px;
+    left: 0;
+    width: 100%;
+  }
+
+  .slide.current .content {
+    transform: translateY(-300px);
+  }
+}
+
+@media (max-width: 600px) {
+  .slide .content {
+    bottom: -300px;
+    left: 0;
+    width: 100%;
+  }
+
+  .slide.current .content {
+    transform: translateY(-300px);
+  }
+}
+
+/* Backgorund Images */
+
+.slide:first-child {
+  /* background: url("https://source.unsplash.com/user/jackie/likes/1600x900")
+    no-repeat center top/cover; */
+  background: url(../myimage/srvimg.jpg) no-repeat center top/cover;
+}
+.slide:nth-child(2) {
+  /* background: url("https://source.unsplash.com/random/1600x900") no-repeat
+    center top/cover; */
+  background: url(../myimage/service2.jpg) no-repeat center top/cover;
+}
+.slide:nth-child(3) {
+  /* background: url("https://source.unsplash.com/TMOeGZw9NY4/1600x900") no-repeat
+    center top/cover; */
+  background: url(../myimage/service.jpg) no-repeat center top/cover;
+}
+.slide:nth-child(4) {
+  /* background: url("https://source.unsplash.com/yXpA_eCbtzI/1600x900") no-repeat
+    center top/cover; */
+  background: url(../myimage/smiling.jpg) no-repeat center top/cover;
+}
+.slide:nth-child(5) {
+  /* background: url("https://source.unsplash.com/ULmaQh9Gvbg/1600x900") no-repeat
+    center top/cover; */
+  background: url(../myimage/wp.jpg) no-repeat center top/cover;
+}
+.slide:nth-child(6) {
+  /* background: url("https://source.unsplash.com/ggZuL3BTSJU/1600x900") no-repeat
+    center center/cover; */
+  background: url(../myimage/beautiful.jpg) no-repeat center top/cover;
+}

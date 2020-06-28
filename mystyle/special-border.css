@@ -1,0 +1,17 @@
+.sp-border {
+  width: 300px;
+  height: px;
+  background: #2f4b78;
+  border: 0.2rem solid black;
+  border-radius: 0.5rem;
+  display: inline-block;
+}
+
+.sp-border1 {
+  width: 15px;
+  height: px;
+  background: red;
+  border: 0.2rem solid red;
+  border-radius: 0.5rem;
+  display: inline-block;
+}
